@@ -1,0 +1,68 @@
+body
+{
+background: #17140F;
+}
+
+*
+{
+color: #D0BA6C;
+font-size:10pt;
+font-family:helvetica;
+}
+
+*::-moz-selection 
+{
+color:#000000;
+background-color:#FF0000;
+}
+
+img
+{
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+
+
+a
+{
+color:#FFFFFF;
+font-weight:bold;
+}
+
+a::-moz-selection 
+{
+color:#00FF00;
+}
+
+select
+{
+background-color:#666666;
+border-color:#333333;
+}
+
+
+input[type=text],input[type=password],textarea
+{
+border-color:#333333;
+background-color:#666666;
+color:#FFFFFF;
+}
+
+
+input[type=button],input[type=submit],input[type=reset]
+{
+border-color:#000000;
+background-color:#333333;
+color:#FFFFFF;
+}
+
+
+
+#allcontainer {top:5px;width:720px;text-align:left;position:absolute;left:50%;margin-left:-365px;}
+#bannercontainer {position:absolute;top:10px;left:10px;width:707px;height:84px;margin:2px;background:transparent url(header.jpg) no-repeat;}
+#maincontainer{position:absolute;top:100px;left:10px;width:550px;}
+#content {position:absolute;left:2px;width:703px;background:#464236;padding:2px;}
+
+#enflag{width:40px;height:26px;background-image:url(en.bmp);}
+#deflag{width:40px;height:26px;background-image:url(de.bmp);}
