@@ -1,6 +1,6 @@
 ﻿<?php
 
-if($counterausgabe==1)
+if(($counterausgabe ?? null) ==1)
 	{
 	echo $counterbesuchertext;
 	}

@@ -15,8 +15,8 @@
       	
 		
 		<?php 
-		include("../funktionen.php");
-		include("inhalt/connect.php");
+		include_once("/rcl/www/funktionen.php");
+		include_once("inhalt/connect.php");
 		$time=date('D, d M Y G:i:s O', time());
 		echo "\n\t\t<lastBuildDate>$time</lastBuildDate>";
 		

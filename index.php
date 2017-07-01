@@ -1,7 +1,7 @@
 <?php
-include("inhalt/connect.php");
-include("../funktionen.php");
-include("inhalt/counter.php");
+include_once("/rcl/www/funktionen.php");
+include_once("inhalt/connect.php");
+include_once("inhalt/counter.php");
 ?>
 
 
@@ -25,7 +25,7 @@ include("inhalt/counter.php");
 			<?php
 				$site=get('s');
 				if ($site == "") {$site="pic";}
-				include("include.php");
+				include_once("include.php");
 			?>
 			<br>
 			<a href="<?php echo ($rcl->langEqual ? "." : $rcl->lang("?lang=de","?lang=en")); ?>">Comic</a>&nbsp;

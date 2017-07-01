@@ -49,7 +49,7 @@ $content="inhalt/404.php";
 break;
 }
 
-include($content);
+include_once($content);
 
 mysql_close($verbindung);
 ?>
