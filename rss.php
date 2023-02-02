@@ -1,4 +1,4 @@
-﻿<?php echo "<?" ?>xml version="1.0" encoding="UTF-8"<?php echo "?>" ?>
+<?php echo "<?" ?>xml version="1.0" encoding="UTF-8"<?php echo "?>" . PHP_EOL ?>
 <rss version="2.0">
 	<channel>
 		<title>de | Gone with the Blastwave</title>
