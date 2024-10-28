@@ -1,0 +1,13 @@
+/* ::::: https://blastwave.blackpinguin.de/blastwave2.css ::::: */
+
+body { background: rgb(32, 26, 24) none repeat scroll 0% 0%; }
+* { color: rgb(197, 54, 50); font-size: 10pt; font-family: helvetica; }
+*::-moz-selection { color: rgb(0, 0, 0); background-color: rgb(255, 0, 0); }
+img { color: rgb(0, 255, 0); -moz-user-select: none; border: 0px none; }
+a { color: rgb(255, 255, 255); font-weight: bold; }
+a::-moz-selection { color: rgb(0, 255, 0); }
+#allcontainer { top: 5px; width: 720px; text-align: left; position: absolute; left: 50%; margin-left: -365px; }
+#bannercontainer { position: absolute; top: 10px; left: 10px; width: 707px; height: 84px; margin: 2px; background: transparent url('header2.jpg') no-repeat scroll 0% 0%; }
+#maincontainer { position: absolute; top: 100px; left: 10px; width: 550px; }
+#content { position: absolute; left: 2px; width: 703px; background: rgb(50, 45, 43) none repeat scroll 0% 0%; padding: 2px; }
+img.flag { width: 40px; height: 26px; border-style: solid; border-color: rgb(0, 255, 0); border-width: 2px; }
